@@ -31,3 +31,6 @@ en laissant la formulaire ouvert , on supprime la fichier nomf.csv
 pour donner à votre systeme l'accès totale à la nouvelle fichier (cette opeation se fait une seule fois)                                  
 
 puis on modifie la formulaire et envoyer ,alors là , le systéme va creer une autre fichier nomf.csv
+
+
+for question : jabran.benmahmoud@gmail.com                                                              
