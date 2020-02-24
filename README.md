@@ -24,5 +24,5 @@ ouvrir le navigateur web  http://adressipraspberrypi/message/smart.php
 authentification avce  user:admin et mot de pass: admin et connecter au formulaire de données                                                                                             
 en laissant la formulaire ouvert , on supprime la fichier nomf.csv                                                    
           rm /var/www/html/message/nomf.csv                                
-
-puis on modifie la formulaire et envoyer alors  le systéme va creer une autre fichier nomf.csv
+pour donner à votre systeme l'accès totale à la nouvelle fichier (cette opeation se fait une saule fois)                                  
+puis on modifie la formulaire et envoyer ,alors là , le systéme va creer une autre fichier nomf.csv
