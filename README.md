@@ -5,7 +5,7 @@ row[3]   correspond au "Compte Gmail" dans la formulaire jabran.benmahmoud@gmail
 row[5]   correspond au "Mail Expiditeur" dans la formulaire jebren@hotmail.fr                                       
 row[4]   correspond au "Mot de passe Gmail" dans la formulaire  hhgfjhgfjh                          
 
-
+1-installation  PHP et appache2:                                                            
 sudo apt update                                                                       
 sudo apt upgrade                                                                       
 sudo apt install apache2                                                                
@@ -17,6 +17,7 @@ sudo apt install php php-mbstring
 sudo visudo                                                                            
 et ajouter a la fin                                                                    
 www-data ALL=NOPASSWD: ALL                                                            
+2-installation de l'application                                                                
 
 mkdir /var/www/html/message                                                          
 git clone https://github.com/jabrane7/webserver-for-raspberry-pi /var/www/html/message                                   
