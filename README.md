@@ -14,7 +14,7 @@ et ajouter a la fin
 www-data ALL=NOPASSWD: ALL                                                            
 
 mkdir /var/www/html/message                                                          
-git clone https://github.com/jabrane7/webserver-for-raspberry-pi /var/www/html/message
+git clone https://github.com/jabrane7/webserver-for-raspberry-pi /var/www/html/message                                   
 ouvrir le navigateur web  http://adressipraspberrypi/message/smart.php                
 authentification avce  admin admin                                                                                              
 puis on supprime la fichier nomf.csv                                                    
