@@ -1,5 +1,5 @@
 # webserver-for-raspberry-pi
-webserver for raspberry pi to make a variable for python program :(exmple messgemail.py)
+webserver for raspberry pi to make a variable for python program :(exmple messgemail.py)                               
 La declaration de variable dans le fichier messagemail.py:                                                    
 row[3]   correspond au "Compte Gmail" dans la formulaire jabran.benmahmoud@gmail.com                                 
 row[5]   correspond au "Mail Expiditeur" dans la formulaire jebren@hotmail.fr                                       
