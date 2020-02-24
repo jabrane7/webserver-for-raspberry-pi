@@ -10,13 +10,15 @@ from email.mime.base import MIMEBase
 from email import encoders 
 import csv
 
-with open('/home/rasp/nom.csv', 'rb') as csvfile:
+with open('nom.csv', 'rb') as csvfile:
 
      spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
      for row in spamreader:
    
        fromaddr =row[3]
        toaddr =row[5]
+      # Authentication 
+ s.login(fromaddr,row[4]) 
    
 # instance of MIMEMultipart 
 msg = MIMEMultipart() 
@@ -66,8 +68,7 @@ s = smtplib.SMTP('smtp.gmail.com', 587)
 # start TLS for security 
 s.starttls() 
   
-# Authentication 
-s.login(fromaddr,row[4]) 
+
   
 # Converts the Multipart msg into a string 
 text = msg.as_string() 
@@ -78,4 +79,4 @@ s.sendmail(fromaddr, toaddr, text)
 # terminating the session 
 s.quit() 
 
-os.remove("/tmp/motion/01.avi")
+
