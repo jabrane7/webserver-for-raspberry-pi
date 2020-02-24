@@ -9,8 +9,6 @@ row[4]   correspond au "Mot de passe Gmail" dans la formulaire  hhgfjhgfjh
 sudo apt update                                                                       
 sudo apt upgrade                                                                       
 sudo apt install apache2                                                                
-sudo chown -R pi:www-data /var/www/html/messsage                                              
-sudo chmod -R 770 /var/www/html/message                                                       
 
 sudo apt install php php-mbstring                                                        
 
@@ -20,7 +18,11 @@ www-data ALL=NOPASSWD: ALL
 2-installation de l'application                                                                
 
 mkdir /var/www/html/message                                                          
-git clone https://github.com/jabrane7/webserver-for-raspberry-pi /var/www/html/message                                   
+git clone https://github.com/jabrane7/webserver-for-raspberry-pi /var/www/html/message  
+
+sudo chown -R pi:www-data /var/www/html/messsage                                              
+sudo chmod -R 770 /var/www/html/message                                                       
+
 ouvrir le navigateur web  http://adressipraspberrypi/message/smart.php                
 authentification avce  user:admin et mot de pass: admin et connecter au formulaire de données                                                  
 
