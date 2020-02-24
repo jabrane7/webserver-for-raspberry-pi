@@ -1,11 +1,11 @@
 # webserver-for-raspberry-pi
 webserver for raspberry pi to make a variable for python program :(exmple messgemail.py
 
-sudo apt update 
-sudo apt upgrade 
-sudo apt install apache2
-sudo chown -R pi:www-data /var/www/html/
-sudo chmod -R 770 /var/www/html/
+sudo apt update                                                                       
+sudo apt upgrade                                                                       
+sudo apt install apache2                                                                
+sudo chown -R pi:www-data /var/www/html/                                              
+sudo chmod -R 770 /var/www/html/                                                       
 
 sudo apt install php php-mbstring
 
