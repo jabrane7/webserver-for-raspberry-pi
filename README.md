@@ -1,8 +1,8 @@
 # webserver-for-raspberry-pi
 webserver for raspberry pi to make a variable for python program :(exmple messgemail.py)                               
 La declaration de variable dans le fichier messagemail.py:                                                    
-row[3]   correspond au "Compte Gmail" dans la formulaire jabran.benmahmoud@gmail.com                                 
-row[5]   correspond au "Mail Expiditeur" dans la formulaire jebren@hotmail.fr                                       
+row[3]   correspond au "Compte Gmail" dans la formulaire mail@gmail.com                                 
+row[5]   correspond au "Mail Expiditeur" dans la formulaire mail@hotmail.fr                                       
 row[4]   correspond au "Mot de passe Gmail" dans la formulaire  hhgfjhgfjh                          
 
 1-installation  PHP et appache2:                                                            
