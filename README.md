@@ -9,8 +9,8 @@ row[4]   correspond au "Mot de passe Gmail" dans la formulaire  hhgfjhgfjh
 sudo apt update                                                                       
 sudo apt upgrade                                                                       
 sudo apt install apache2                                                                
-sudo chown -R pi:www-data /var/www/html/                                              
-sudo chmod -R 770 /var/www/html/                                                       
+sudo chown -R pi:www-data /var/www/html/messsage                                              
+sudo chmod -R 770 /var/www/html/message                                                       
 
 sudo apt install php php-mbstring                                                        
 
