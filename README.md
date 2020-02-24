@@ -21,8 +21,10 @@ www-data ALL=NOPASSWD: ALL
 mkdir /var/www/html/message                                                          
 git clone https://github.com/jabrane7/webserver-for-raspberry-pi /var/www/html/message                                   
 ouvrir le navigateur web  http://adressipraspberrypi/message/smart.php                
-authentification avce  user:admin et mot de pass: admin et connecter au formulaire de données                                                                                             
+authentification avce  user:admin et mot de pass: admin et connecter au formulaire de données                                                  
+
 en laissant la formulaire ouvert , on supprime la fichier nomf.csv                                                    
           rm /var/www/html/message/nomf.csv                                
-pour donner à votre systeme l'accès totale à la nouvelle fichier (cette opeation se fait une saule fois)                                  
+pour donner à votre systeme l'accès totale à la nouvelle fichier (cette opeation se fait une seule fois)                                  
+
 puis on modifie la formulaire et envoyer ,alors là , le systéme va creer une autre fichier nomf.csv
