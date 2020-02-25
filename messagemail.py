@@ -43,7 +43,7 @@ msg.attach(MIMEText(body, 'plain'))
 
 #s='05'
 #f=s+'.avi'
-filename = "capture.avi"
+filename = "ic_house2.png"
 #attachment = open("/tmp/motion/"+f, "rb") 
 
 attachment = open("/var/www/html/message/ic_house2.png", "rb")  
