@@ -10,15 +10,15 @@ from email.mime.base import MIMEBase
 from email import encoders 
 import csv
 
-with open('nomf.csv', 'rb') as csvfile:
+with open('/var/www/html/message/nomf.csv', 'rb') as csvfile:
 
      spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
      for row in spamreader:
    
        fromaddr =row[3]
        toaddr =row[5]
-      # Authentication 
- s.login(fromaddr,row[4]) 
+      
+        
    
 # instance of MIMEMultipart 
 msg = MIMEMultipart() 
@@ -46,7 +46,7 @@ msg.attach(MIMEText(body, 'plain'))
 filename = "capture.avi"
 #attachment = open("/tmp/motion/"+f, "rb") 
 
-attachment = open("/tmp/motion/01.avi", "rb")  
+attachment = open("/var/www/html/message/ic_house2.png", "rb")  
 
 # instance of MIMEBase and named as p 
 p = MIMEBase('application', 'octet-stream') 
@@ -71,11 +71,13 @@ s.starttls()
 
   
 # Converts the Multipart msg into a string 
-text = msg.as_string() 
+text = msg.as_string()
+ # Authentication 
+s.login(fromaddr,row[4])
   
 # sending the mail 
-s.sendmail(fromaddr, toaddr, text) 
-  
+s.sendmail(fromaddr, toaddr, text)
+    
 # terminating the session 
 s.quit() 
 
