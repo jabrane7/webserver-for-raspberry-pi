@@ -10,7 +10,7 @@ from email.mime.base import MIMEBase
 from email import encoders 
 import csv
 
-with open('nom.csv', 'rb') as csvfile:
+with open('nomf.csv', 'rb') as csvfile:
 
      spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
      for row in spamreader:
