@@ -24,7 +24,10 @@ sudo chown -R pi:www-data /var/www/html/message
 sudo chmod -R 770 /var/www/html/message                                                       
 
 ouvrir le navigateur web  http://adressipraspberrypi/message/smart.php                
-authentification avce  user:admin et mot de pass: admin et connecter au formulaire de données                                                  
+authentification avce  user:admin et mot de pass: admin et connecter au formulaire de données 
+puis supprimer la fichier nomf.csv puis remplir la formulaire et evoyer.le systeme va generer une autre fichier nomf.csv          
+
+
 si on modifie les variable du formulaire on modifie alors la fichier nomf.csv alos on modifie les variable du programme messagemail.py   
 
 for question : jabran.benmahmoud@gmail.com                                                              
