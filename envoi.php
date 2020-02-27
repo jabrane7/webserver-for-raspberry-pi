@@ -156,6 +156,6 @@ $fp = fopen('nomf.csv', 'w');
 }
 
 fclose($fp);
-
+header('Location: ./index1.php');
 
 ?>
