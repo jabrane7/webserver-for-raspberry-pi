@@ -1,5 +1,6 @@
 # webserver-for-raspberry-pi
-serveur web pour raspberry pi pour créer des variable pour le programme python:(exmple messgemail.py)                               
+serveur web pour raspberry pi pour créer des variable pour le programme python:(exmple messgemail.py)    
+https://www.youtube.com/watch?v=UnKqOGl9JR8                                                                
 La declaration de variable dans le fichier messagemail.py:                                                    
 row[3]   correspond au "Compte Gmail" dans la formulaire mail@gmail.com                                 
 row[5]   correspond au "Mail Expiditeur" dans la formulaire mail@hotmail.fr                                       
