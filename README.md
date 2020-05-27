@@ -18,6 +18,8 @@ et ajouter a la fin
 www-data ALL=NOPASSWD: ALL                                                            
 2-installation de l'application                                                                
 
+install git :                                                                                              
+sudo apt-get install git-core                                                                     
 mkdir /var/www/html/message                                                          
 git clone https://github.com/jabrane7/webserver-for-raspberry-pi /var/www/html/message  
 
